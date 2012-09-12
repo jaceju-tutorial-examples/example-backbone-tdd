@@ -1,5 +1,6 @@
 define([
     'jasmine',
+    'jasmine-jquery',
     'jasmine-html',
     'spec/SampleSpec'
 ], function () {

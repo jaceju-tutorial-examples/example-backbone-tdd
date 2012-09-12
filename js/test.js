@@ -4,6 +4,7 @@ require.config({
         'underscore': '../libs/underscore',
         'backbone': '../libs/backbone',
         'jasmine': '../jasmine/jasmine',
+        'jasmine-jquery': '../jasmine/jasmine-jquery',
         'jasmine-html': '../jasmine/jasmine-html'
     },
     shim: {
@@ -20,6 +21,7 @@ require.config({
         'jasmine': {
             exports: 'jasmine'
         },
+        'jasmine-jquery': ['jasmine'],
         'jasmine-html': ['jasmine']
     }
 });
