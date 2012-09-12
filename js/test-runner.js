@@ -1,7 +1,7 @@
 define([
     'jasmine',
     'jasmine-html',
-    'spec/TodoSpec'
+    'spec/SampleSpec'
 ], function () {
     return {
         run: function () {

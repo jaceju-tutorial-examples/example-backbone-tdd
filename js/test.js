@@ -3,7 +3,6 @@ require.config({
         'jquery': '../libs/jquery',
         'underscore': '../libs/underscore',
         'backbone': '../libs/backbone',
-        'backbone-localstorage': '../libs/backbone-localstorage',
         'jasmine': '../jasmine/jasmine',
         'jasmine-html': '../jasmine/jasmine-html'
     },
@@ -18,7 +17,6 @@ require.config({
             deps: ['underscore', 'jquery'],
             exports: 'Backbone'
         },
-        'backbone-localstorage': ['backbone'],
         'jasmine': {
             exports: 'jasmine'
         },
